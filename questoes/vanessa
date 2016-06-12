@@ -1,0 +1,31 @@
+
+
+// 7 questao
+import java.util.*;
+public class maior {
+
+	public static void main(String[] args) {
+		float maior,num;
+  int count=2;
+  Scanner ler = new Scanner(System.in);
+
+  System.out.print("Numero 1: ");
+  num = ler.nextFloat();
+  maior = num;
+
+  while(count <= 10){
+   System.out.print("Numero " + count + ": ");
+   num = ler.nextFloat();
+
+   if(num > maior){
+    maior = num;
+   }
+
+   count++;
+  }
+
+  System.out.println("O maior numero digitado é: "+maior);
+
+	}
+
+}
